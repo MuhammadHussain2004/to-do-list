@@ -2,7 +2,7 @@
 const inputText=document.getElementById("input-text");
 const list=document.getElementById("list-container");
 const addTask=()=>{
-    if(inputText===""){
+    if(inputText.value===""){
         alert("Enter Task First");
     }
     else{
